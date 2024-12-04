@@ -4,17 +4,26 @@ This web application detects when a USB drive is connected or disconnected. It u
 ________________________________________
 How It Works
 1.	Frontend:
+   
 o	A webpage with a clean and minimalistic design (midnight green and off-white theme).
+
 o	Dynamically displays connection or disconnection events.
+
 o	Logs the history of USB events with timestamps.
-2.	Backend:
+
+3.	Backend:
+   
 o	The webpage is hosted locally using a Python HTTP server.
+
 o	The WebUSB API is used to detect USB connection and disconnection events directly in the browser.
 ________________________________________
 How to Set It Up and Run Locally
 Step 1: Install Python
+
 Ensure Python (version 3.x or higher) is installed on your system. If not, download and install Python from the official website.
+
 Step 2: Set Up the Project
+
 1.	Place all project files (HTML, CSS, JS) in a directory (e.g., usb-detection).
 2.	Ensure your project structure looks like this: 
 usb-detection/
@@ -31,14 +40,21 @@ The WebUSB API requires HTTPS. Grant permissions when prompted by the browser to
 ________________________________________
 Libraries or APIs Used
 1.	WebUSB API:
+   
 o	Detects USB connection and disconnection events.
+
 o	Fetches details about connected USB devices (e.g., name, manufacturer, serial number).
-2.	Python HTTP Server:
+
+3.	Python HTTP Server:
+   
 o	Hosts the application locally with port number 8000.
 ________________________________________
 Features
+
 •	Real-time detection of USB connection and disconnection.
+
 •	Logs the history of events with timestamps.
+
 •	User-friendly interface with device details displayed dynamically.
 ________________________________________
 Testing 
