@@ -5,19 +5,20 @@ ________________________________________
 How It Works
 1.	Frontend:
    
-o	A webpage with a clean and minimalistic design (midnight green and off-white theme).
-
-o	Dynamically displays connection or disconnection events.
-
-o	Logs the history of USB events with timestamps.
-
-3.	Backend:
+   o	A webpage with a clean and minimalistic design (midnight green and off-white theme).
    
-o	The webpage is hosted locally using a Python HTTP server.
+   o	Dynamically displays connection or disconnection events.
+   
+   o	Logs the history of USB events with timestamps.
 
-o	The WebUSB API is used to detect USB connection and disconnection events directly in the browser.
+2.	Backend:
+   
+   o	The webpage is hosted locally using a Python HTTP server.
+   
+   o	The WebUSB API is used to detect USB connection and disconnection events directly in the browser.
 ________________________________________
 How to Set It Up and Run Locally
+
 Step 1: Install Python
 
 Ensure Python (version 3.x or higher) is installed on your system. If not, download and install Python from the official website.
@@ -41,21 +42,21 @@ ________________________________________
 Libraries or APIs Used
 1.	WebUSB API:
    
-o	Detects USB connection and disconnection events.
-
-o	Fetches details about connected USB devices (e.g., name, manufacturer, serial number).
-
-3.	Python HTTP Server:
+   o	Detects USB connection and disconnection events.
    
-o	Hosts the application locally with port number 8000.
+   o	Fetches details about connected USB devices (e.g., name, manufacturer, serial number).
+
+2.	Python HTTP Server:
+   
+   o	Hosts the application locally with port number 8000.
 ________________________________________
 Features
 
-•	Real-time detection of USB connection and disconnection.
-
-•	Logs the history of events with timestamps.
-
-•	User-friendly interface with device details displayed dynamically.
+   •	Real-time detection of USB connection and disconnection.
+   
+   •	Logs the history of events with timestamps.
+   
+   •	User-friendly interface with device details displayed dynamically.
 ________________________________________
 Testing 
 •	When no USB is connected: USB not detected 
@@ -73,12 +74,12 @@ Testing
 ________________________________________
 
 Troubleshooting
-
-•	Ensure your browser supports the WebUSB API (e.g., Chrome).
-
-•	If the page doesn't load, confirm that the SSL certificates are correctly set up.
-
-•	Check the browser console (F12) for any errors related to USB permissions or API usage.
-
-•	ANY OTHER ERROR COULD BE BECAUSE OF THE LIMITATIONS OF WebUSB, AND LACK OF DOCUMENTATION OF THE API.
+   
+   •	Ensure your browser supports the WebUSB API (e.g., Chrome).
+   
+   •	If the page doesn't load, confirm that the SSL certificates are correctly set up.
+   
+   •	Check the browser console (F12) for any errors related to USB permissions or API usage.
+   
+   •	ANY OTHER ERROR COULD BE BECAUSE OF THE LIMITATIONS OF WebUSB, AND LACK OF DOCUMENTATION OF THE API.
 
