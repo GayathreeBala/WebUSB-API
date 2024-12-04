@@ -1,0 +1,18 @@
+body {    font-family: Arial, sans-serif;    background-color: #f0f0f0;  
+    color: #333;    display: flex;    justify-content: center;    align-items: center;    height: 100vh;    margin: 0;}
+.container {    background-color: #fff;    padding: 20px;    border-radius: 8px;    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+        text-align: center;}h1 {    color: #004d40;}
+#status {    margin: 20px 0;    padding: 10px;    border: 1px solid #004d40;    border-radius: 4px;    background-color: #e0f2f1;}
+button {    padding: 10px 20px;    background-color: #004d40;    color: #fff;    border: none;    border-radius: 4px;    cursor: pointer;}
+button:hover {    background-color: #00332e;}
+#logs {    margin-top: 20px;    text-align: left;}
+/* Add this to your styles.css to style the loading spinner */
+.loading-spinner {
+    font-size: 20px;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
