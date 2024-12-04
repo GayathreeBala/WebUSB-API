@@ -43,13 +43,16 @@ Features
 ________________________________________
 Testing 
 •	When no USB is connected: USB not detected 
- 
+![image](https://github.com/user-attachments/assets/c50c293b-4bc2-4d1c-95fe-96c5353c28c7)
+
 
 •	Select the avaliable devices from by clicking “Request Devices”: USB connected
- 
+ ![image](https://github.com/user-attachments/assets/e0f7f3f1-ce2c-46ac-81fe-883e1c2bc770)
+
 
 •	When selected device is not connected:
  
+ ![image](https://github.com/user-attachments/assets/a913ece0-4f7c-481a-84d8-827ee0ce20b5)
 
 
 Troubleshooting
