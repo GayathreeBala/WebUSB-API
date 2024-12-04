@@ -57,7 +57,10 @@ Testing
 
 Troubleshooting
 •	Ensure your browser supports the WebUSB API (e.g., Chrome).
+
 •	If the page doesn't load, confirm that the SSL certificates are correctly set up.
+
 •	Check the browser console (F12) for any errors related to USB permissions or API usage.
+
 •	ANY OTHER ERROR COULD BE BECAUSE OF THE LIMITATIONS OF WebUSB, AND LACK OF DOCUMENTATION OF THE API.
 
