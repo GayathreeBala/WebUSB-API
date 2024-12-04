@@ -56,6 +56,7 @@ Testing
 
 
 Troubleshooting
+
 •	Ensure your browser supports the WebUSB API (e.g., Chrome).
 
 •	If the page doesn't load, confirm that the SSL certificates are correctly set up.
