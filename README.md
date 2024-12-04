@@ -1,5 +1,5 @@
 USB Drive Detection Web Application
-Overview
+
 This web application detects when a USB drive is connected or disconnected. It uses the WebUSB API to interact with USB devices and dynamically displays updates about the connection status on the webpage.
 ________________________________________
 How It Works
